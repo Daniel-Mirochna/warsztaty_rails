@@ -137,6 +137,8 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.14.2-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.14.2-x64-mingw-ucrt)
+      racc (~> 1.4)
     popper_js (2.11.6)
     pry (0.14.2)
       coderay (~> 1.1)
@@ -222,11 +224,14 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.6.1-arm64-darwin)
+    sqlite3 (1.6.1-x64-mingw-ucrt)
     thor (1.2.1)
     tilt (2.1.0)
     timeout (0.3.2)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2023.3)
+      tzinfo (>= 1.0.0)
     web-console (4.2.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -246,6 +251,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  x64-mingw-ucrt
 
 DEPENDENCIES
   bootsnap
